@@ -1,6 +1,5 @@
-# Global conversion factors
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
 FREEZING_POINT_F = 32  # Fahrenheit freezing point offset
 FREEZING_POINT_C = 32  # Celsius freezing point offset
 
