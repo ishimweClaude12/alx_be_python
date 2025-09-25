@@ -1,6 +1,6 @@
  
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
+CELSIUS_TO_FAHRENHEIT_FACTORS = 9 / 5
+FAHRENHEIT_TO_CELSIUS_FACTORS = 5 / 9
 FREEZING_POINT_F = 32  # Fahrenheit freezing point offset
 FREEZING_POINT_C = 32  # Celsius freezing point offset
 
@@ -9,14 +9,14 @@ def convert_to_celsius(fahrenheit: float) -> float:
     """
     Convert Fahrenheit to Celsius using the global factor.
     """
-    return (fahrenheit - FREEZING_POINT_F) * FAHRENHEIT_TO_CELSIUS_FACTOR
+    return (fahrenheit - FREEZING_POINT_F) * FAHRENHEIT_TO_CELSIUS_FACTORS
 
 
 def convert_to_fahrenheit(celsius: float) -> float:
     """
     Convert Celsius to Fahrenheit using the global factor.
     """
-    return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + FREEZING_POINT_C
+    return (celsius * CELSIUS_TO_FAHRENHEIT_FACTORS) + FREEZING_POINT_C
 
 
 def main():
